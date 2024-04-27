@@ -12,8 +12,13 @@ class Employee {
         }
     }
 
+    calculateBonus(multiplier) {
+        const bonus = this.salary * multiplier
+        return bonus
+    }
 
 }
+
 
 // const leo = new Employee('Leonardo', 90000, 'Ninja', splinter);
 // console.log(leo)
